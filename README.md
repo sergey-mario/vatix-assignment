@@ -87,3 +87,19 @@ To show report, use the following command:
 ```bash
 npm run show:report
 ```
+
+## Check lists
+- All required fields must be filled to submit the form (automated)
+- Conditional fields appear when Type is set to “Near Miss” and all required fields must be filled to submit the form (automated)
+- Conditional fields appear when Type is set to “First Aid Injury” and all required fields must be filled to submit the form (automated)
+- Submission without date and time shows an error (automated)
+- Submission without location shows an error (automated)
+- Submission without type shows an error (automated)
+- Submission without description shows an error (automated)
+- Submission with optional fields filled
+- Conditional fields disappear when Type is changed to a non-conditional option
+- Invalid date-time formats are rejected
+- All fields have correct placeholders
+- All dropdowns have expected options
+- The file can be attached
+- Add/remove an additional note
