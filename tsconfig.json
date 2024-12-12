@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "lib": ["esnext"],
+        "esModuleInterop": true,
+        "paths": {},
+        "allowSyntheticDefaultImports": true,
+        "module": "esnext",
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "sourceMap": true
+    }
+}
